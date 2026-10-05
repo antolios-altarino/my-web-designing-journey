@@ -1,0 +1,37 @@
+.parent {
+	background: red;
+	display: grid;
+	
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 100px);
+	gap: 10px;
+	padding: 10px;
+	grid-template-areas:
+	"h h h"
+	"n m s"
+	"n m s"
+	"f f f"
+
+
+
+
+}
+.parent div {
+	background: gold;
+}
+.header {
+	grid-area: h;
+}
+.nav {
+	grid-area: n;
+}
+.main {
+	grid-area: m;
+}
+.sidebar {
+	grid-area: s;
+}
+.footer {
+	grid-area: f;
+}
+
