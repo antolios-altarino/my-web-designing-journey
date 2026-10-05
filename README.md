@@ -11,7 +11,7 @@ https://ar.nouvil.net
 ## Progress
 
 * [x] HTML — 29 finished / 29 Episodes | Degree-> https://ar.nouvil.net/verify/204A339BADD276CA86B1
-* [ ] CSS — 39 finished / 68 Episodes
+* [ ] CSS — 46 finished / 68 Episodes
 * [ ] JavaScript — Not Started
 * I Will Add More Paths In The Future
 
