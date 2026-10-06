@@ -23,6 +23,8 @@ You Can Find My Notes From The Courses In Their Own Folders.
 
 | Folder          |
 | --------------- |
+| `html`		  |
+| `html-css`	  |
 | `html-css-js`   |
 | `projects`      |
 
