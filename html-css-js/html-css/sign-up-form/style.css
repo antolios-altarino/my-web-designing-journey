@@ -1,0 +1,33 @@
+body {
+	background: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form {
+	background: mediumpurple;
+	padding: 10px;
+	width: 80%;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+form input{
+	background: ghostwhite;
+	border: none;
+	outline: none;
+	color: black;
+	padding: 5px 10px;
+	flex-basis: 200px;
+	flex-grow: 1;
+}
+form button {
+	padding: 5px 10px;
+	flex-basis: 40px;
+	flex-grow: 1;
+}
+
