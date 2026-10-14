@@ -12,7 +12,7 @@ https://ar.nouvil.net
 
 * [x] HTML — 29 finished / 29 Episodes | Degree-> https://ar.nouvil.net/verify/204A339BADD276CA86B1
 * [x] CSS  — 52 finished / 52 Episodes | Degree-> https://ar.nouvil.net/verify/13E1F24D80765A2EB2BB
-* [ ] JavaScript — 0 finished / 81 Episodes
+* [ ] JavaScript — 3 finished / 81 Episodes
 * I Will Add More Paths In The Future
 
 ## Note
