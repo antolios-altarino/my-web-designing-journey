@@ -1,0 +1,139 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: sans-serif;
+}body{
+	background: #002;
+	display: flex;
+}
+/*==========*/
+/*Menu Style*/
+/*==========*/
+.menu{
+	background-color: #123;
+	width: 62px;
+	height: 100vh;
+	padding: 20px;
+	overflow: hidden;
+	transition: .5s;
+	position: sticky;
+	top: 0;
+
+}.menu:hover {
+	width: 260px;
+}.profile { /*Menu Ptofile*/
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding-bottom: 15px;
+}.profile h2{
+	font-size: 20px;
+	text-transform: capitalize;
+}.img-box { /*Menu Profile img*/
+	width: 60px;
+	height: 60px;
+	margin-left: -5px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid white;
+	flex-shrink: 0;
+}.img-box img{ 
+	width: 100%; 
+}ul{ 		/*Menu buttons*/
+	list-style: none;
+	position: relative;
+	height: 90%;
+}ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 5px 0px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	transition: .5s;
+	flex-shrink: 0;
+}ul li a:hover, .active, .data-info .box:hover, td:hover{ /* The Hover Is Here */
+	background-color: #ffffff55;
+}ul li a i{
+	font-size: 30px;
+}.log-out {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}.log-out a {
+    background-color: #a03;
+    white-space: nowrap;
+}
+
+/*=============*/
+/*The Main Page*/
+/*=============*/
+.content{
+	width: 100%;
+	margin: 10px;
+}.title-info { /*Dashboard Label*/
+	background-color: #0481ff90;
+	display: flex;
+	padding: 12px;
+	border-radius: 8px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+}.data-info { /* Data Boxes*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}.data-info .box{
+	background-color: #123;
+	height: 150px;
+	flex-basis: 150px;
+	flex-grow: 1;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	transition: .5s;
+}.data-info .box i{
+	font-size: 42px;
+}.data-info .box .data{
+	text-align: center;
+	font-size: 22px;
+}.data-info .box span{
+	font-size: 26px;
+}
+/*=============*/
+/* Table Style */
+/*=============*/
+table{
+	width: 100%;
+	text-align: center;
+	border-spacing: 8px;
+}
+td, th{
+	background-color: #123;
+	height: 40px;
+	border-radius: 8px;
+}
+th{
+	background-color: #0080ff90;
+}
+.price, .count{
+	padding: 6px;
+	border-radius: 6px;
+}
+.price{
+	background-color: seagreen;
+}
+.count{
+	background-color: goldenrod;
+	color: black;
+
+}
